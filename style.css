@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #6a0572, #3b0a47);
+}
+.table-container{
+  padding: 40px 0;
+}
+table{
+  width: 70%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+  color: white;
+  background-color: rgb(124, 3, 124); 
+  box-shadow: rgba(235, 112, 235);
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+th, td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.color{
+  background-color: rgb(100, 3, 68);
+}
+tr:hover {
+      background: rgba(255, 255, 255, 0.15);
+      cursor: pointer;
+    }
